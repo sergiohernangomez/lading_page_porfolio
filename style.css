@@ -4,6 +4,9 @@
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+body{
+    background-color: rgb(248, 244, 227);
+}
 
 .menu{
     background-color: rgb(229, 68, 109);
@@ -34,8 +37,12 @@
     margin: 5px;
     color: rgb(248, 244, 227);
 }
-main{
-   background-color:  rgb(248, 244, 227);
+
+.items a{
+    text-decoration: none;
+    color: rgb(248, 244, 227);
+    gap: 20px;
+    font-size: 18px;
 }
 
 
@@ -44,10 +51,10 @@ main{
     justify-content: center;
     align-items: center;
     background-color: rgb(229, 68, 109);
-    padding: 20px 10px ;
+    padding: 20px 5px ;
     margin:60px;
     max-width: 1200px;
-    border-radius: 10px;
+    border-radius: 20px;
 
 }
 .portada-img{
@@ -73,7 +80,6 @@ main{
     width: 80%;
     min-width: 500px;
     font-weight: 800;
-    color: ;
 }
 .portada-1 p{
     font-weight: 800;
@@ -87,9 +93,9 @@ main{
 }
 
 .botones a{
-    color:rgb(229, 68, 109);
+    color: #6C63FF;
     background-color: rgb(248, 244, 227);
-    padding: 8px 4px;
+    padding: 10px 6px;
     border-radius: 10px;
     font-size: 20px;
     text-align: center;
@@ -105,9 +111,122 @@ main{
 }
 
 .descripcion p{
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
-    color: rgb(229, 68, 109);
+    color: #6C63FF;
     font-weight: 800;
-
 }
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    
+}
+
+.cards-titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.cards-titulo h2{
+    font-size: 42px;
+    color: #6C63FF;
+}
+
+.cards-titulo p{
+    color: #6C63FF;
+}
+
+.cards-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: rgb(248, 244, 227);
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.cards-info{
+    width: 300px;
+    height: 400px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(229, 68, 109);
+    border-radius: 10px;
+    gap: 20px; 
+}
+
+.cards-img {
+    width: 200px;
+    height: 200px;
+}
+ .cards-info h3{
+    color: rgb(248, 244, 227);
+ }
+ .cards-info p{
+    color: rgb(248, 244, 227);
+    font-size: 14px;
+ }
+
+
+
+ .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px ;
+    background-color: rgb(229, 68, 109);
+    padding: 40px 30px;
+    gap: 150px;
+ }
+
+ .footer-img img{
+    width: 400px;
+    height: 300px;
+    
+ }
+ .contacto{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+ }
+ 
+ .contacto-direccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+ }
+
+ .direcciones {
+    display: flex;
+    flex-direction: column;
+    align-content: baseline;
+    justify-content: center;
+    gap:20px ;
+ }
+ .contacto-direccion h3{
+    color: rgb(248, 244, 227);
+    font-size: 24px;
+    height: 40px;
+ }
+ .contacto h2{
+    font-size: 48px;
+    color: rgb(248, 244, 227);
+ }
+ .direcciones span{
+    color: rgb(248, 244, 227);
+ }
+
+ .direcciones img{
+    width: 30px;
+    height: 30px;
+ }
