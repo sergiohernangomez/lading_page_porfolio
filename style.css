@@ -7,10 +7,15 @@
 body{
     background-color: rgb(248, 244, 227);
 }
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
 
 .menu{
     background-color: rgb(229, 68, 109);
-    height: 70px;
+    height: 65px;
     width: auto;
     display: flex;
     justify-content: space-between;
@@ -55,7 +60,6 @@ body{
     margin:60px;
     max-width: 1200px;
     border-radius: 20px;
-
 }
 .portada-img{
     
@@ -229,4 +233,9 @@ body{
  .direcciones img{
     width: 30px;
     height: 30px;
+ }
+ 
+ .menu-label,
+ .menu-toggle{
+    display: none
  }

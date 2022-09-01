@@ -6,19 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar</title>
     <link rel="stylesheet" href="./style.css">
-
+    <link rel="stylesheet" href="./mediaqueries.css">
 </head>
 <body>
-
-    <nav class="menu">
-        <label class="logo">SergioHG</label>
-        <ul class="items">
-            <li> <a href="#">INICIO</a></li>
-            <li> <a href="">SERVICIOS</a></li>
-            <li> <a href="">CLIENTE</a></li>
-            <li> <a href="#">CONTACTO</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav class="menu">
+            <label class="logo">SergioHG</label>
+            <label for="menu-toggle" class="menu-label">
+                <img src="./assest/menu.png" alt="icono menu" class="menu-icon">
+            </label>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <ul class="items">
+                <li> <a href="#">INICIO</a></li>
+                <li><a href="#">SERVICIOS</a></li>
+                <li> <a href="#">CLIENTE</a></li>
+                <li> <a href="#">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <section>
             <div class="portada">
